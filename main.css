@@ -4,32 +4,60 @@
  width: 1300px;
  margin-right: auto;
  margin-left: auto;
+    margin:0 auto;
 }
 #header {
  height: auto;
  width: 650px;
- margin-right: auto;
- margin-left: auto;
+ margin:0 auto;
 }
 .logo {
             position: relative;
             flex: 0 0 15%;
             width: 15%;
             font-color:#000000 ;
+            text-align:center;
+            float:left
         }		
 	.logo img{width: 25px;
-	                height: 20px;}		
+	                height: 20px;
+    }
+    .logo:hover .qr-code{
+        display: block;
+    }
 	 .qr-code {
             position: absolute;
             display: none;
             width: 200px;
             height: 200px;
-            background: img url(images/I1WO4%5DIWBP12PW9AS%258%7EC9O.png)
-        }		
+        }
+     .qr-code img{
+         width:100%;
+         height:100%;
+     }
 
-.search{text-align:center;width:400px;height:50px;float:left;}           
-.logo{text-align:center;width:80px;float:left}
-.weibo{text-align:center;width:80px;float:left}
-.weibo a{color:#000;text-decoration:none}
-.login{text-align:center;width:150px;float:left}
-.lun a{color:#000;text-decoration:none}
+.search{
+    text-align:center;
+    width:400px;
+    height:50px;
+    float:left;
+}
+
+.weibo{
+    text-align:center;
+    width:80px;
+    float:left
+}
+.weibo a{
+    color:#000;
+    text-decoration:none
+}
+.login{
+    text-align:center;
+    width:150px;
+    float:left
+}
+.lun a{
+    color:#000;
+    text-decoration:none
+}
