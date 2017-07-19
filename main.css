@@ -7,9 +7,17 @@
     margin:0 auto;
 }
 #header {
- height: auto;
- width: 650px;
- margin:0 auto;
+    text-align: center;
+    height: auto;
+    width: 1000px;
+    margin:10px auto;
+    padding:0;
+    border:0;
+}
+#wei{
+    width:400px;
+    text-align:center;
+    float:left;
 }
 .logo {
             position: relative;
@@ -20,7 +28,7 @@
             float:left
         }		
 	.logo img{width: 25px;
-	                height: 20px;
+               height: 20px;
     }
     .logo:hover .qr-code{
         display: block;
@@ -28,8 +36,8 @@
 	 .qr-code {
             position: absolute;
             display: none;
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
         }
      .qr-code img{
          width:100%;
@@ -38,14 +46,14 @@
 
 .search{
     text-align:center;
-    width:400px;
+    width:500px;
     height:50px;
     float:left;
 }
 
 .weibo{
     text-align:center;
-    width:80px;
+    width:120px;
     float:left
 }
 .weibo a{
@@ -61,3 +69,42 @@
     color:#000;
     text-decoration:none
 }
+.catalog{
+    padding:0;
+    border:0;
+    background-repeat:no-repeat;
+    font-size:20px;
+    width:100%;
+    height:30px;
+    line-height:36px;
+    background: rgba(245, 245, 245, 0);
+    margin:10px auto;
+}
+.catalog a:link {color:#000;text-decoration:none;}
+.catalog a:visited {display:block;color:#000;text-decoration:none;}
+.catalog a:hover {color:#000;text-decoration:none;}
+.catalog a:active {text-decoration:none;}
+.cata{width:1000px; height:36px; margin:0 auto;}
+.cata li{width:120px; border-right:#FFF solid 2px; text-align:center;}
+.cata .last{border-right:none;}
+.news-mo:hover .news{display: block;}
+.news{display: none;}
+.news1:hover{background-color: #acabb0;}
+.cha-mo:hover .cha{display: block;}
+.cha{display: none;}
+.cha1:hover{background-color: #acabb0;}
+.couplet-mo:hover .couplet{display: block;}
+.couplet{display: none;}
+.couplet1:hover{background-color: #acabb0;}
+.poem-mo:hover .poem{display: block;}
+.poem{display: none;}
+.poem1:hover{background-color: #acabb0;}
+.school-mo:hover .school{display: block;}
+.school{display: none;}
+.school1:hover{background-color: #acabb0;}
+.league-mo:hover .league{display: block;}
+.league{display: none;}
+.league1:hover{background-color: #acabb0;}
+.teen-mo:hover .teen{display: block;}
+.teen{display: none;}
+.teen1:hover{background-color: #acabb0;}
