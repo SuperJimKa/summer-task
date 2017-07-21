@@ -1,7 +1,11 @@
 @charset "utf-8";
+*{
+    margin:0px;
+}
 #contain {
  height: auto;
- width: 1300px;
+ width: 1100px;
+    height:800px;
  margin-right: auto;
  margin-left: auto;
     margin:0 auto;
@@ -9,15 +13,16 @@
 #header {
     text-align: center;
     height: auto;
-    width: 1000px;
+    width: 1100px;
     margin:10px auto;
     padding:0;
     border:0;
 }
 #wei{
-    width:400px;
+    width:650px;
     text-align:center;
     float:left;
+    margin-top:5px;
 }
 .logo {
             position: relative;
@@ -25,7 +30,7 @@
             width: 15%;
             font-color:#000000 ;
             text-align:center;
-            float:left
+            float:left;
         }		
 	.logo img{width: 25px;
                height: 20px;
@@ -46,14 +51,12 @@
 
 .search{
     text-align:center;
-    width:500px;
     height:50px;
     float:left;
 }
-
 .weibo{
-    text-align:center;
-    width:120px;
+    text-align:left;
+    width:100px;
     float:left
 }
 .weibo a{
@@ -62,10 +65,14 @@
 }
 .login{
     text-align:center;
-    width:150px;
-    float:left
+    width:80px;
+    float:left;
+    margin-top:12px;
 }
-.lun a{
+.luntan{
+    margin-top:6px;
+}
+.luntan a{
     color:#000;
     text-decoration:none
 }
