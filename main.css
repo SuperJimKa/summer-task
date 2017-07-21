@@ -76,37 +76,32 @@
     height:30px;
     line-height:36px;
     margin:10px auto;
-    padding:0px;
+    padding:6px;
 }
 .catalog a:link {color:#000;text-decoration:none; }
-.catalog a:visited {display:block;color:#000;text-decoration:none; }
+.catalog a:visited {color:#000;text-decoration:none; }
 .catalog a:hover {color:#000;text-decoration:none;}
-.catalog a:active {text-decoration:none;}
+.catalog a:active {color:#000;text-decoration:none;}
 .cata{width:1000px; height:36px; margin:0 auto;}
 .cata li{width:120px;text-align:center;float:left;}
-.line{
-    width:2px;
-    height:36px;
-    background-color: black;
-}
 .news-mo:hover .news{display: block;}
 .news{display: none;}
-.news1:hover{background-color: #acabb0;}
+.news1 a:hover{background-color: #acabb0;}
 .cha-mo:hover .cha{display: block;}
 .cha{display: none;}
-.cha1:hover{background-color: #acabb0;}
+.cha1 a:hover{background-color: #acabb0;}
 .couplet-mo:hover .couplet{display: block;}
 .couplet{display: none;}
-.couplet1:hover{background-color: #acabb0;}
+.couplet1 a:hover{background-color: #acabb0;}
 .poem-mo:hover .poem{display: block;}
 .poem{display: none;}
-.poem1:hover{background-color: #acabb0;}
+.poem1 a:hover{background-color: #acabb0;}
 .school-mo:hover .school{display: block;}
 .school{display: none;}
-.school1:hover{background-color: #acabb0;}
+.school1 a:hover{background-color: #acabb0;}
 .league-mo:hover .league{display: block;}
 .league{display: none;}
-.league1:hover{background-color: #acabb0;}
+.league1 a:hover{background-color: #acabb0;}
 .teen-mo:hover .teen{display: block;}
 .teen{display: none;}
-.teen1:hover{background-color: #acabb0;}
+.teen1 a:hover{background-color: #acabb0;}
