@@ -45,12 +45,12 @@
         </p>
     </div>
     <div class="catalog">
-        <ul class="cata" style="list-style-type:none;">
+        <div class="cata" style="position:absolute;z-index:10;list-style-type:none;">
             <div style="float:left;">
                 <li><a href="#" target="_blank">首页</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
             </div>
-            <div class="news-mo" style="float:left;">
+            <div class="news-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">新闻速递</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
                 <div class="news" style="list-style-type:none;">
@@ -62,7 +62,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cha-mo" style="float:left;">
+            <div class="cha-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">中华诗词</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
                 <div class="cha" style="list-style-type:none;">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
             </div>
-            <div class="couplet-mo" style="float:left;">
+            <div class="couplet-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">楹联中国</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
                 <div class="couplet" style="list-style-type:none;">
@@ -98,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="poem-mo" style="float:left;">
+            <div class="poem-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">诗词大赛</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
                 <div class="poem" style="list-style-type:none;">
@@ -113,7 +113,7 @@
                     </div>
                 </div>
             </div>
-            <div class="school-mo" style="float:left;">
+            <div class="school-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">大学堂</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
                 <div class="school" style="list-style-type:none;">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="league-mo" style="float:left;">
+            <div class="league-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">校园联盟</a></li>
                 <div style="float:left;margin-top:8px;width: 1px;height: 20px; background: #000;"></div>
                 <div class="league" style="list-style-type:none;">
@@ -149,7 +149,7 @@
                     </div>
                 </div>
             </div>
-            <div class="teen-mo" style="float:left;">
+            <div class="teen-mo" style="float:left;background-color: white">
                 <li><a href="#" target="_blank">中青概况</a></li>
                 <div class="teen" style="list-style-type:none;">
                     <div class="teen1">
@@ -166,14 +166,66 @@
                     </div>
                 </div>
             </div>
-        </ul>
+        </div>
     </div>
-</div>
+    <div class="main" style="padding:0; margin:0;">
+        <div class="mianc">
+            <!-- Demo start -->
+            <!-- css -->
+            <link rel="stylesheet" href="main.css">
+            <style>
+                .ck-slide { width: 1100px; height: 580px; margin: 0 auto;}
+                .ck-slide ul.ck-slide-wrapper { height: 320px;}
+            </style>
+
+            <!-- html -->
+            <div class="ck-slide">
+                <ul class="ck-slide-wrapper">
+                    <li>
+                        <a href="javascript:"><img src="images/1.jpeg" width="1100" height="580" alt=""></a>
+                    </li>
+                    <li style="display:none">
+                        <a href="javascript:"><img src="images/2.jpg" width="1100" height="580" alt=""></a>
+                    </li>
+                    <li style="display:none">
+                        <a href="javascript:"><img src="images/3.jpg" width="1100" height="580" alt=""></a>
+                    </li>
+                </ul>
+                <a href="javascript:;" class="ctrl-slide ck-prev">上一张</a> <a href="javascript:;" class="ctrl-slide ck-next">下一张</a>
+                <div class="ck-slidebox">
+                    <div class="slideWrap">
+                        <ul class="dot-wrap">
+                            <li class="current"><em>1</em></li>
+                            <li><em>2</em></li>
+                            <li><em>3</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- js -->
+            <script src="js/jquery-1.8.3.min.js"></script>
+            <!--<script src="js/slide.min.js"></script>-->
+            <script src="js/slide.js"></script>
+            <script>
+                $('.ck-slide').ckSlide({
+                    autoPlay: true,//默认为不自动播放，需要时请以此设置
+                    dir: 'x',//默认效果淡隐淡出，x为水平移动，y 为垂直滚动
+                    interval:3000//默认间隔2000毫秒
+
+                });
+            </script>
+            <!-- Demo end -->
+        </div>
+        <p style="background-color: #acabb0;height:30px;line-height:30px;padding:0; margin:0">
+            中 国 青 年 诗 词 楹 联 网 欢 迎 您
+        </p>
+    </div>
+    </div>
 <div id="body">
 
 </div>
 <div id="footer">
 </div>
-</div>
+    </div>
 </body>
 </html>
